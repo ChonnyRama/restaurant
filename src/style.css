@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vw;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url(./resources/thai-food-drawing_218660-840.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap:50px
+}
+
+header {
+    background-color: rgb(209, 190, 63);
+    width: 100%;
+    padding: 25px;
+}
+
+nav button {
+    padding:10px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#content {
+    height: 80vh;
+    width: 70vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+    background-color: blueviolet;
+}
+
+.header {
+    font-size: 2rem;
+    border: 5px solid;
+
+}
+
+.menu-item {
+    text-align: start;
+    position: relative;
+    width: 450px;
+    height: 400px;
+    background: rgb(200, 106, 200);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.menu-item p {
+    margin: 20px;
+}
+.menu-item > img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 200px;
+}
